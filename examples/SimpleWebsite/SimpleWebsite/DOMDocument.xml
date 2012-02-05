@@ -1,0 +1,132 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" currentTimeline="1" xflVersion="2.1" creatorInfo="Adobe Flash Professional CS5.5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.5 build 325" majorVersion="11" minorVersion="5" buildNumber="325" timelineLabelWidth="235" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" autoSaveEnabled="true" autoSaveHasPrompted="true">
+     <symbols>
+          <Include href="Menu.xml" itemID="4f2dc57e-000002ca" lastModified="1328404977"/>
+          <Include href="MenuSceneOneBtn.xml" loadImmediate="false" itemID="4f2dc465-000002b3" lastModified="1328399571"/>
+          <Include href="MenuSceneThreeBtn.xml" loadImmediate="false" itemID="4f2dc4ee-000002c8" lastModified="1328399616"/>
+          <Include href="MenuSceneTwoBtn.xml" loadImmediate="false" itemID="4f2dc494-000002c0" lastModified="1328399526"/>
+          <Include href="SceneOne.xml" itemID="4f2dd8c0-00000333" lastModified="1328404672"/>
+          <Include href="ScenesContainerView.xml" itemID="4f2dd881-0000032f" lastModified="1328405864"/>
+          <Include href="SceneThree.xml" itemID="4f2dd8f8-00000340" lastModified="1328404755"/>
+          <Include href="SceneTwo.xml" itemID="4f2dd8ef-0000033c" lastModified="1328404758"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="Scene 1">
+               <layers>
+                    <DOMLayer name="labels" color="#4FFF4F" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="9" name="Home" labelType="name" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="9" duration="10" name="SceneOne" labelType="name" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="19" duration="10" name="SceneTwo" labelType="name" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="29" duration="11" name="SceneThree" labelType="name" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="menu" color="#FF4FFF" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="40" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Menu" name="menu" centerPoint3DX="275" centerPoint3DY="48">
+                                             <matrix>
+                                                  <Matrix tx="275" ty="48"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="scenesContainer" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="40" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="ScenesContainerView" name="scenesContainer" centerPoint3DX="275" centerPoint3DY="200">
+                                             <matrix>
+                                                  <Matrix tx="275" ty="200"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="scenes" color="#9933CC" autoNamed="false" layerType="guide">
+                         <frames>
+                              <DOMFrame index="0" duration="9" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="9" duration="10" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="SceneOne" centerPoint3DX="275" centerPoint3DY="200">
+                                             <matrix>
+                                                  <Matrix tx="275" ty="200"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="19" duration="10" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="SceneTwo" centerPoint3DX="275" centerPoint3DY="200">
+                                             <matrix>
+                                                  <Matrix tx="275" ty="200"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="29" duration="11" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="SceneThree" centerPoint3DX="275" centerPoint3DY="200">
+                                             <matrix>
+                                                  <Matrix tx="275" ty="200"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <PrinterSettings platform="macintosh"/>
+     <publishHistory>
+          <PublishItem publishSize="34016" publishTime="1328406181"/>
+          <PublishItem publishSize="34229" publishTime="1328406137"/>
+          <PublishItem publishSize="34259" publishTime="1328406094"/>
+          <PublishItem publishSize="34214" publishTime="1328406067"/>
+          <PublishItem publishSize="34204" publishTime="1328405995"/>
+          <PublishItem publishSize="34196" publishTime="1328405907"/>
+          <PublishItem publishSize="34194" publishTime="1328405775"/>
+          <PublishItem publishSize="34193" publishTime="1328405754"/>
+          <PublishItem publishSize="34177" publishTime="1328405736"/>
+          <PublishItem publishSize="34158" publishTime="1328405713"/>
+          <PublishItem publishSize="34078" publishTime="1328405287"/>
+          <PublishItem publishSize="34108" publishTime="1328405264"/>
+          <PublishItem publishSize="34076" publishTime="1328405210"/>
+          <PublishItem publishSize="34082" publishTime="1328405199"/>
+          <PublishItem publishSize="34087" publishTime="1328405153"/>
+          <PublishItem publishSize="34070" publishTime="1328405033"/>
+          <PublishItem publishSize="34057" publishTime="1328404922"/>
+          <PublishItem publishSize="33904" publishTime="1328404804"/>
+          <PublishItem publishSize="33862" publishTime="1328404763"/>
+          <PublishItem publishSize="2222" publishTime="1328400714"/>
+     </publishHistory>
+</DOMDocument>
