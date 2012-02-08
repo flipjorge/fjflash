@@ -1,24 +1,65 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="SceneThree" itemID="4f2dd8f8-00000340" linkageExportForAS="true" linkageClassName="SceneThree" lastModified="1328404755">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="SceneThree" itemID="4f2dd8f8-00000340" linkageExportForAS="true" linkageBaseClass="fj.view.views.FJScene" linkageClassName="SceneThree" lastModified="1328664240">
   <timeline>
-    <DOMTimeline name="SceneThree">
+    <DOMTimeline name="SceneThree" currentFrame="13">
       <layers>
-        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+        <DOMLayer name="Layer 1" color="#4FFF4F">
           <frames>
-            <DOMFrame index="0" keyMode="9728">
+            <DOMFrame index="0" duration="9" name="in:start" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="9" duration="10" name="in:end" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="19" duration="10" name="out:start" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="29" duration="11" name="out:end" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="label" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="9" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
-                <DOMStaticText selected="true" width="95.6" height="16" autoExpand="true" isSelectable="false">
-                  <matrix>
-                    <Matrix tx="-47.8" ty="-8"/>
-                  </matrix>
-                  <textRuns>
-                    <DOMTextRun>
-                      <characters>Scene Three!!!!</characters>
-                      <textAttrs>
-                        <DOMTextAttrs aliasText="false" size="14" bitmapSize="280" face="ArialMT"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                  </textRuns>
-                </DOMStaticText>
+                <DOMSymbolInstance libraryItemName="SceneThreeTitle">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="9" duration="10" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="SceneThreeTitle">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="19" duration="10" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="SceneThreeTitle">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="29" duration="11" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="SceneThreeTitle">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>

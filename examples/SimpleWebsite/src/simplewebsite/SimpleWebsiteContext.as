@@ -1,12 +1,16 @@
 package simplewebsite {
 	
-	import simplewebsite.view.mediators.ScenesContainerMediator;
-	import simplewebsite.view.views.ScenesContainerView;
+	import fj.view.mediators.FJSceneMediator;
+	import fj.view.views.FJScene;
+	import fj.view.mediators.FJScenesContainerMediator;
+	import fj.view.views.FJScenesContainer;
+	import fj.model.models.FJScenesModel;
+	import fj.controller.commands.FJFinishChangingScene;
+	import fj.controller.events.FJSceneOutEvent;
+	import fj.controller.commands.FJStartChangingScene;
+	import fj.controller.events.FJChangeSceneEvent;
 	import simplewebsite.view.mediators.MenuMediator;
 	import simplewebsite.view.views.Menu;
-	import simplewebsite.model.models.ScenesModel;
-	import simplewebsite.controller.commands.ChangeSceneCommand;
-	import simplewebsite.controller.events.ChangeSceneEvent;
 	import org.robotlegs.mvcs.Context;
 	import flash.display.DisplayObjectContainer;
 
@@ -19,18 +23,24 @@ package simplewebsite {
 
 		override public function startup() : void
 		{
-			commandMap.mapEvent(ChangeSceneEvent.START_CHANGE, ChangeSceneCommand);
+			commandMap.mapEvent(FJChangeSceneEvent.START_CHANGING, FJStartChangingScene);
+			commandMap.mapEvent(FJSceneOutEvent.OUT_COMPLETE, FJFinishChangingScene);
 			
-			injector.mapSingleton(ScenesModel);
+			injector.mapSingleton(FJScenesModel);
 			
 			mediatorMap.mapView(Menu, MenuMediator);
-			mediatorMap.mapView(ScenesContainerView, ScenesContainerMediator);
+			mediatorMap.mapView(FJScenesContainer, FJScenesContainerMediator);
+			//mediatorMap.mapView(FJScene, FJSceneMediator);
+			
+			mediatorMap.mapView(SceneOne, FJSceneMediator, FJScene);
+			mediatorMap.mapView(SceneTwo, FJSceneMediator, FJScene);
+			mediatorMap.mapView(SceneThree, FJSceneMediator, FJScene);
 			
 			for (var i : int = 0; i < contextView.numChildren; i++) {
 				mediatorMap.createMediator(contextView.getChildAt(i));
 			}
 			
-			dispatchEvent(new ChangeSceneEvent(ChangeSceneEvent.START_CHANGE, "SceneOne"));
+			dispatchEvent(new FJChangeSceneEvent(FJChangeSceneEvent.START_CHANGING, new SceneOne() ));
 		}
 
 	}
