@@ -1,8 +1,10 @@
 package simplewebsite{
 	
 	import fj.view.views.FJScenesContainer;
-	import simplewebsite.view.views.Menu;
+	
 	import flash.display.MovieClip;
+	
+	import simplewebsite.view.views.Menu;
 	
 	public class SimpleWebsite extends MovieClip
 	{
