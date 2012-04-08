@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Menu" itemID="4f2dc57e-000002ca" linkageExportForAS="true" linkageClassName="simplewebsite.view.views.Menu" lastModified="1333727429" lastUniqueIdentifier="3">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Menu" itemID="4f2dc57e-000002ca" linkageExportForAS="true" linkageClassName="simplewebsite.view.views.Menu" lastModified="1333895397" lastUniqueIdentifier="3">
   <timeline>
     <DOMTimeline name="Menu">
       <layers>
@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="MenuSceneOneBtn" name="SceneOne" selected="true" centerPoint3DX="-166.45">
+                <DOMSymbolInstance libraryItemName="MenuSceneOneBtn" name="SceneOne" centerPoint3DX="-166.45">
                   <matrix>
                     <Matrix tx="-166.45"/>
                   </matrix>
@@ -14,15 +14,15 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="MenuSceneTwoBtn" name="SceneTwo" selected="true" centerPoint3DX="-18.45">
+                <DOMSymbolInstance libraryItemName="MenuSceneTwoBtn" name="SceneTwo" centerPoint3DX="-4.9">
                   <matrix>
-                    <Matrix tx="-18.45"/>
+                    <Matrix tx="-4.9"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="MenuSceneThreeBtn" name="SceneThree" selected="true" centerPoint3DX="161.55">
+                <DOMSymbolInstance libraryItemName="MenuSceneThreeBtn" name="SceneThree" centerPoint3DX="161.55">
                   <matrix>
                     <Matrix tx="161.55"/>
                   </matrix>

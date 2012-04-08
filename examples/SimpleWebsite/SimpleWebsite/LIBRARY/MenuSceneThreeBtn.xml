@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="MenuSceneThreeBtn" itemID="4f2dc4ee-000002c8" lastModified="1328399598">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="MenuSceneThreeBtn" itemID="4f2dc4ee-000002c8" lastModified="1333892215">
   <timeline>
     <DOMTimeline name="MenuSceneThreeBtn">
       <layers>
@@ -6,13 +6,13 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMStaticText selected="true" width="69.1" height="16" autoExpand="true" isSelectable="false">
+                <DOMStaticText width="80" height="16" autoExpand="true" isSelectable="false">
                   <matrix>
-                    <Matrix tx="-34.55" ty="-8"/>
+                    <Matrix tx="-40" ty="-8"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
-                      <characters>Scene Two</characters>
+                      <characters>Scene Three</characters>
                       <textAttrs>
                         <DOMTextAttrs aliasText="false" size="14" bitmapSize="280" face="ArialMT"/>
                       </textAttrs>

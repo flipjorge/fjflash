@@ -1,14 +1,14 @@
 package simplewebsite {
 	
-	import fj.controller.commands.FJFinishChangingScene;
-	import fj.controller.commands.FJStartChangingScene;
-	import fj.controller.events.FJChangeSceneEvent;
-	import fj.controller.events.FJSceneOutEvent;
-	import fj.model.models.FJScenesModel;
-	import fj.view.mediators.FJSceneMediator;
-	import fj.view.mediators.FJScenesContainerMediator;
-	import fj.view.views.FJScene;
-	import fj.view.views.FJScenesContainer;
+	import fj.site.controller.commands.FJFinishChangingScene;
+	import fj.site.controller.commands.FJStartChangingScene;
+	import fj.site.controller.events.FJChangeSceneEvent;
+	import fj.site.controller.events.FJSceneOutEvent;
+	import fj.site.model.models.FJScenesModel;
+	import fj.site.view.mediators.FJSceneMediator;
+	import fj.site.view.mediators.FJScenesContainerMediator;
+	import fj.site.view.views.FJScene;
+	import fj.site.view.views.FJScenesContainer;
 	
 	import flash.display.DisplayObjectContainer;
 	

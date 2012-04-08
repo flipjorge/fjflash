@@ -1,6 +1,7 @@
 package simplewebsite{
 	
-	import fj.view.views.FJScenesContainer;
+	
+	import fj.site.view.views.FJScenesContainer;
 	
 	import flash.display.MovieClip;
 	

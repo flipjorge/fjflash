@@ -1,13 +1,15 @@
 package simplewebsite.view.mediators {
 	
-	import fj.view.views.FJScene;
-	import flash.utils.getDefinitionByName;
-	import fj.controller.events.FJChangeSceneEvent;
+	import fj.site.controller.events.FJChangeSceneEvent;
+	import fj.site.view.views.FJScene;
+	
 	import flash.display.MovieClip;
+	import flash.events.MouseEvent;
+	import flash.utils.getDefinitionByName;
+	
+	import org.robotlegs.mvcs.Mediator;
 	
 	import simplewebsite.view.views.Menu;
-	import flash.events.MouseEvent;
-	import org.robotlegs.mvcs.Mediator;
 
 	public class MenuMediator extends Mediator
 	{

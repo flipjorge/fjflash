@@ -1,4 +1,5 @@
 package simplewebsite.view.views {
+	
 	import flash.display.MovieClip;
 
 	public class Menu extends MovieClip
