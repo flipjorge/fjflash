@@ -1,0 +1,41 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" currentTimeline="1" xflVersion="2.1" creatorInfo="Adobe Flash Professional CS5.5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.5 build 349" majorVersion="11" minorVersion="5" buildNumber="349" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
+     <symbols>
+          <Include href="Preload.xml" itemID="4f8356df-000002c3" lastModified="1334007683"/>
+          <Include href="PreloadLoadingText.xml" loadImmediate="false" itemID="4f835742-000002c8" lastModified="1334007618"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="Scene 1">
+               <layers>
+                    <DOMLayer name="preload" color="#4FFF4F" outline="true" current="true" isSelected="true" useOutlineView="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Preload" name="preload" centerPoint3DX="275" centerPoint3DY="200">
+                                             <matrix>
+                                                  <Matrix tx="275" ty="200"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <PrinterSettings platform="macintosh"/>
+     <publishHistory>
+          <PublishItem publishSize="18582" publishTime="1334007689"/>
+          <PublishItem publishSize="18586" publishTime="1334007685"/>
+          <PublishItem publishSize="18521" publishTime="1334007673"/>
+          <PublishItem publishSize="18525" publishTime="1334007667"/>
+          <PublishItem publishSize="18525" publishTime="1334007662"/>
+          <PublishItem publishSize="17228" publishTime="1334007406"/>
+          <PublishItem publishSize="17227" publishTime="1334007343"/>
+          <PublishItem publishSize="17210" publishTime="1334007250"/>
+          <PublishItem publishSize="17707" publishTime="1334007234"/>
+          <PublishItem publishSize="17684" publishTime="1334007203"/>
+     </publishHistory>
+</DOMDocument>
