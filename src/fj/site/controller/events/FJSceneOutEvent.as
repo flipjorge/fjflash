@@ -11,7 +11,7 @@ package fj.site.controller.events {
 		
 		public var scene:IScene;
 		
-		public function FJSceneOutEvent(type : String, scene:fj.site.view.views.IScene, bubbles : Boolean = false, cancelable : Boolean = false)
+		public function FJSceneOutEvent(type : String, scene:IScene, bubbles : Boolean = false, cancelable : Boolean = false)
 		{
 			super(type, bubbles, cancelable);
 			

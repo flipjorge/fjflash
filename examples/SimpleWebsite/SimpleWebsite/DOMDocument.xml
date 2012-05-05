@@ -1,6 +1,9 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" currentTimeline="1" xflVersion="2.1" creatorInfo="Adobe Flash Professional CS5.5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.5 build 349" majorVersion="11" minorVersion="5" buildNumber="349" timelineLabelWidth="235" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" autoSaveEnabled="true" autoSaveHasPrompted="true">
      <symbols>
+          <Include href="LanguageENBtn.xml" loadImmediate="false" itemID="4fa4563f-00000274" lastModified="1336175871"/>
+          <Include href="LanguagePTBtn.xml" loadImmediate="false" itemID="4fa4566d-0000027e" lastModified="1336175889"/>
           <Include href="Menu.xml" itemID="4f2dc57e-000002ca" lastModified="1333895397"/>
+          <Include href="MenuLanguages.xml" itemID="4fa46cd4-000002cf" lastModified="1336175900"/>
           <Include href="MenuSceneOneBtn.xml" loadImmediate="false" itemID="4f2dc465-000002b3" lastModified="1328399571"/>
           <Include href="MenuSceneThreeBtn.xml" loadImmediate="false" itemID="4f2dc4ee-000002c8" lastModified="1333892215"/>
           <Include href="MenuSceneTwoBtn.xml" loadImmediate="false" itemID="4f2dc494-000002c0" lastModified="1328399526"/>
@@ -31,7 +34,23 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="menu" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="languages menu" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="40" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="MenuLanguages" selected="true" centerPoint3DX="33.4" centerPoint3DY="383.9">
+                                             <matrix>
+                                                  <Matrix tx="33.4" ty="383.9"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="menu" color="#FF4FFF" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="40" keyMode="9728">
                                    <elements>
@@ -111,25 +130,25 @@
      </timelines>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
-          <PublishItem publishSize="38517" publishTime="1334010837"/>
-          <PublishItem publishSize="40528" publishTime="1334010833" publishDebug="true"/>
-          <PublishItem publishSize="40475" publishTime="1334010780" publishDebug="true"/>
-          <PublishItem publishSize="40477" publishTime="1334010770" publishDebug="true"/>
-          <PublishItem publishSize="40479" publishTime="1334010663" publishDebug="true"/>
-          <PublishItem publishSize="40475" publishTime="1334010651" publishDebug="true"/>
-          <PublishItem publishSize="40457" publishTime="1334010198" publishDebug="true"/>
-          <PublishItem publishSize="40466" publishTime="1334010184" publishDebug="true"/>
-          <PublishItem publishSize="40481" publishTime="1334010146" publishDebug="true"/>
-          <PublishItem publishSize="40482" publishTime="1334010117" publishDebug="true"/>
-          <PublishItem publishSize="40458" publishTime="1334010113" publishDebug="true"/>
-          <PublishItem publishSize="40482" publishTime="1334010080" publishDebug="true"/>
-          <PublishItem publishSize="38436" publishTime="1334010034"/>
-          <PublishItem publishSize="40481" publishTime="1334010031" publishDebug="true"/>
-          <PublishItem publishSize="40488" publishTime="1334010009" publishDebug="true"/>
-          <PublishItem publishSize="40474" publishTime="1334009982" publishDebug="true"/>
-          <PublishItem publishSize="38464" publishTime="1334009944"/>
-          <PublishItem publishSize="40477" publishTime="1334009941" publishDebug="true"/>
-          <PublishItem publishSize="40481" publishTime="1334009932" publishDebug="true"/>
-          <PublishItem publishSize="40541" publishTime="1334009893" publishDebug="true"/>
+          <PublishItem publishSize="39573" publishTime="1336175841"/>
+          <PublishItem publishSize="41873" publishTime="1336175776" publishDebug="true"/>
+          <PublishItem publishSize="2701" publishTime="1336175767" publishDebug="true"/>
+          <PublishItem publishSize="2703" publishTime="1336175642" publishDebug="true"/>
+          <PublishItem publishSize="41753" publishTime="1336175593" publishDebug="true"/>
+          <PublishItem publishSize="41773" publishTime="1336175583" publishDebug="true"/>
+          <PublishItem publishSize="41788" publishTime="1336175567" publishDebug="true"/>
+          <PublishItem publishSize="41792" publishTime="1336175501" publishDebug="true"/>
+          <PublishItem publishSize="41755" publishTime="1336175491" publishDebug="true"/>
+          <PublishItem publishSize="41344" publishTime="1336175460" publishDebug="true"/>
+          <PublishItem publishSize="41092" publishTime="1336175374" publishDebug="true"/>
+          <PublishItem publishSize="41084" publishTime="1336175358" publishDebug="true"/>
+          <PublishItem publishSize="41089" publishTime="1336175331" publishDebug="true"/>
+          <PublishItem publishSize="41085" publishTime="1336175309" publishDebug="true"/>
+          <PublishItem publishSize="41100" publishTime="1336175305" publishDebug="true"/>
+          <PublishItem publishSize="41106" publishTime="1336175299" publishDebug="true"/>
+          <PublishItem publishSize="41090" publishTime="1336175293" publishDebug="true"/>
+          <PublishItem publishSize="41088" publishTime="1336175290" publishDebug="true"/>
+          <PublishItem publishSize="41092" publishTime="1336175277" publishDebug="true"/>
+          <PublishItem publishSize="41097" publishTime="1336175272" publishDebug="true"/>
      </publishHistory>
 </DOMDocument>

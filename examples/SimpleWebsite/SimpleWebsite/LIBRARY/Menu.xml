@@ -22,7 +22,7 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="MenuSceneThreeBtn" name="SceneThree" centerPoint3DX="161.55">
+                <DOMSymbolInstance libraryItemName="MenuSceneThreeBtn" name="SceneThree" selected="true" centerPoint3DX="161.55">
                   <matrix>
                     <Matrix tx="161.55"/>
                   </matrix>

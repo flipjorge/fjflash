@@ -7,6 +7,5 @@ package simplewebsite.view.views {
 		public var SceneOne:MovieClip;
 		public var SceneTwo:MovieClip;
 		public var SceneThree:MovieClip;
-		
 	}
 }
