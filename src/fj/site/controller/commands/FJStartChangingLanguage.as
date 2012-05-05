@@ -22,7 +22,9 @@ package fj.site.controller.commands
 		{
 			languageModel.currentLanguage = event.language;
 			
-			dispatch( new FJChangeSceneEvent( FJChangeSceneEvent.START_CHANGING, scenesModel.currentScene ) );
+			if( scenesModel.currentScene ){
+				dispatch( new FJChangeSceneEvent( FJChangeSceneEvent.START_CHANGING, scenesModel.currentScene ) );
+			}
 		}
 	}
 }

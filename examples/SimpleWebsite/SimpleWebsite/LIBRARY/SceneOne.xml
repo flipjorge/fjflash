@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="SceneOne" itemID="4f2dd8c0-00000333" linkageExportForAS="true" linkageBaseClass="fj.site.view.views.FJScene" linkageClassName="SceneOne" lastModified="1333895413" lastUniqueIdentifier="3">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="SceneOne" itemID="4f2dd8c0-00000333" linkageExportForAS="true" linkageClassName="simplewebsite.view.views.SceneOne" lastModified="1336176888" lastUniqueIdentifier="3">
   <timeline>
-    <DOMTimeline name="SceneOne" currentFrame="39">
+    <DOMTimeline name="SceneOne" currentFrame="10">
       <layers>
         <DOMLayer name="labels" color="#9933CC" autoNamed="false">
           <frames>
@@ -34,7 +34,7 @@
             </DOMFrame>
             <DOMFrame index="9" duration="10" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="SceneOneTitle">
+                <DOMSymbolInstance libraryItemName="SceneOneTitle" selected="true">
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>

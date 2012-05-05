@@ -6,18 +6,18 @@ package fj.site.model.models
 	
 	public class FJLanguageModel extends Actor
 	{
-		private var _language:String;
+		private var _currentLanguage:String;
 		
 		public function get currentLanguage():String
 		{
-			return _language;
+			return _currentLanguage;
 		}
 		
-		public function set currentLanguage( lang:String ):void
+		public function set currentLanguage( language:String ):void
 		{
-			_language = lang;
+			_currentLanguage = language;
 			
-			dispatch( new FJChangeLanguageEvent( FJChangeLanguageEvent.CHANGED, _language ) );
+			dispatch( new FJChangeLanguageEvent( FJChangeLanguageEvent.CHANGED, _currentLanguage ) );
 		}
 		
 	}

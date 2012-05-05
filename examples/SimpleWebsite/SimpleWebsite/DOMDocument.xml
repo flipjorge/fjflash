@@ -7,7 +7,7 @@
           <Include href="MenuSceneOneBtn.xml" loadImmediate="false" itemID="4f2dc465-000002b3" lastModified="1328399571"/>
           <Include href="MenuSceneThreeBtn.xml" loadImmediate="false" itemID="4f2dc4ee-000002c8" lastModified="1333892215"/>
           <Include href="MenuSceneTwoBtn.xml" loadImmediate="false" itemID="4f2dc494-000002c0" lastModified="1328399526"/>
-          <Include href="SceneOne.xml" itemID="4f2dd8c0-00000333" lastModified="1333895413"/>
+          <Include href="SceneOne.xml" itemID="4f2dd8c0-00000333" lastModified="1336176888"/>
           <Include href="SceneOneTitle.xml" loadImmediate="false" itemID="4f31b55b-00000260" lastModified="1328657755"/>
           <Include href="ScenesContainerView.xml" itemID="4f2dd881-0000032f" lastModified="1333895448"/>
           <Include href="SceneThree.xml" itemID="4f2dd8f8-00000340" lastModified="1333895434"/>
@@ -16,7 +16,7 @@
           <Include href="SceneTwoTitle.xml" loadImmediate="false" itemID="4f31b610-0000026a" lastModified="1328657944"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1">
+          <DOMTimeline name="Scene 1" currentFrame="9">
                <layers>
                     <DOMLayer name="labels" color="#4FFF4F" autoNamed="false">
                          <frames>
@@ -34,11 +34,11 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="languages menu" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="languages menu" color="#4FFF4F" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="40" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="MenuLanguages" selected="true" centerPoint3DX="33.4" centerPoint3DY="383.9">
+                                        <DOMSymbolInstance libraryItemName="MenuLanguages" centerPoint3DX="33.4" centerPoint3DY="383.9">
                                              <matrix>
                                                   <Matrix tx="33.4" ty="383.9"/>
                                              </matrix>
@@ -82,14 +82,14 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="scenes" color="#9933CC" autoNamed="false" layerType="guide">
+                    <DOMLayer name="scenes" color="#9933CC" current="true" isSelected="true" autoNamed="false" layerType="guide">
                          <frames>
                               <DOMFrame index="0" duration="9" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="9" duration="10" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="SceneOne" centerPoint3DX="275" centerPoint3DY="200">
+                                        <DOMSymbolInstance libraryItemName="SceneOne" selected="true" centerPoint3DX="275" centerPoint3DY="200">
                                              <matrix>
                                                   <Matrix tx="275" ty="200"/>
                                              </matrix>
@@ -130,25 +130,25 @@
      </timelines>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
-          <PublishItem publishSize="39573" publishTime="1336175841"/>
-          <PublishItem publishSize="41873" publishTime="1336175776" publishDebug="true"/>
-          <PublishItem publishSize="2701" publishTime="1336175767" publishDebug="true"/>
-          <PublishItem publishSize="2703" publishTime="1336175642" publishDebug="true"/>
-          <PublishItem publishSize="41753" publishTime="1336175593" publishDebug="true"/>
-          <PublishItem publishSize="41773" publishTime="1336175583" publishDebug="true"/>
-          <PublishItem publishSize="41788" publishTime="1336175567" publishDebug="true"/>
-          <PublishItem publishSize="41792" publishTime="1336175501" publishDebug="true"/>
-          <PublishItem publishSize="41755" publishTime="1336175491" publishDebug="true"/>
-          <PublishItem publishSize="41344" publishTime="1336175460" publishDebug="true"/>
-          <PublishItem publishSize="41092" publishTime="1336175374" publishDebug="true"/>
-          <PublishItem publishSize="41084" publishTime="1336175358" publishDebug="true"/>
-          <PublishItem publishSize="41089" publishTime="1336175331" publishDebug="true"/>
-          <PublishItem publishSize="41085" publishTime="1336175309" publishDebug="true"/>
-          <PublishItem publishSize="41100" publishTime="1336175305" publishDebug="true"/>
-          <PublishItem publishSize="41106" publishTime="1336175299" publishDebug="true"/>
-          <PublishItem publishSize="41090" publishTime="1336175293" publishDebug="true"/>
-          <PublishItem publishSize="41088" publishTime="1336175290" publishDebug="true"/>
-          <PublishItem publishSize="41092" publishTime="1336175277" publishDebug="true"/>
-          <PublishItem publishSize="41097" publishTime="1336175272" publishDebug="true"/>
+          <PublishItem publishSize="42446" publishTime="1336178439" publishDebug="true"/>
+          <PublishItem publishSize="2642" publishTime="1336178429" publishDebug="true"/>
+          <PublishItem publishSize="39924" publishTime="1336178327"/>
+          <PublishItem publishSize="42410" publishTime="1336178321" publishDebug="true"/>
+          <PublishItem publishSize="42382" publishTime="1336178267" publishDebug="true"/>
+          <PublishItem publishSize="2644" publishTime="1336178250" publishDebug="true"/>
+          <PublishItem publishSize="39904" publishTime="1336178201"/>
+          <PublishItem publishSize="42412" publishTime="1336178190" publishDebug="true"/>
+          <PublishItem publishSize="2643" publishTime="1336178177" publishDebug="true"/>
+          <PublishItem publishSize="2643" publishTime="1336178174" publishDebug="true"/>
+          <PublishItem publishSize="42405" publishTime="1336178160" publishDebug="true"/>
+          <PublishItem publishSize="2643" publishTime="1336178155" publishDebug="true"/>
+          <PublishItem publishSize="2644" publishTime="1336178151" publishDebug="true"/>
+          <PublishItem publishSize="2643" publishTime="1336178128" publishDebug="true"/>
+          <PublishItem publishSize="42375" publishTime="1336178111" publishDebug="true"/>
+          <PublishItem publishSize="2643" publishTime="1336178060" publishDebug="true"/>
+          <PublishItem publishSize="42352" publishTime="1336178019" publishDebug="true"/>
+          <PublishItem publishSize="42347" publishTime="1336177923" publishDebug="true"/>
+          <PublishItem publishSize="42332" publishTime="1336177910" publishDebug="true"/>
+          <PublishItem publishSize="42374" publishTime="1336177907" publishDebug="true"/>
      </publishHistory>
 </DOMDocument>
