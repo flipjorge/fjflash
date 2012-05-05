@@ -1,24 +1,80 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="MenuSceneTwoBtn" itemID="4f2dc494-000002c0" lastModified="1328399526">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="MenuSceneTwoBtn" itemID="4f2dc494-000002c0" linkageExportForAS="true" linkageBaseClass="fj.view.views.FJButton" linkageClassName="MenuSceneTwoBtn" lastModified="1336259273" lastUniqueIdentifier="3">
   <timeline>
-    <DOMTimeline name="MenuSceneTwoBtn">
+    <DOMTimeline name="MenuSceneTwoBtn" currentFrame="58">
       <layers>
-        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+        <DOMLayer name="labels" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" keyMode="9728">
+            <DOMFrame index="0" duration="9" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="9" duration="10" name="over:start" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="19" duration="10" name="over:end" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="29" duration="10" name="selected" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="39" duration="10" name="out:start" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="49" duration="11" name="out:end" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="label" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="9" keyMode="9728">
               <elements>
-                <DOMStaticText selected="true" width="69.1" height="16" autoExpand="true" isSelectable="false">
-                  <matrix>
-                    <Matrix tx="-34.55" ty="-8"/>
-                  </matrix>
-                  <textRuns>
-                    <DOMTextRun>
-                      <characters>Scene Two</characters>
-                      <textAttrs>
-                        <DOMTextAttrs aliasText="false" size="14" bitmapSize="280" face="ArialMT"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                  </textRuns>
-                </DOMStaticText>
+                <DOMSymbolInstance libraryItemName="MenuSceneTwoBtnLabel" selected="true">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="9" duration="10" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="MenuSceneTwoBtnLabel" selected="true">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="19" duration="20" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="MenuSceneTwoBtnLabel" centerPoint3DX="-0.55">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="1" tintColor="#FF0000"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="39" duration="10" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="MenuSceneTwoBtnLabel" selected="true" centerPoint3DX="-0.55">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="1" tintColor="#FF0000"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="49" duration="11" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="MenuSceneTwoBtnLabel">
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>

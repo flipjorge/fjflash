@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Menu" itemID="4f2dc57e-000002ca" linkageExportForAS="true" linkageClassName="simplewebsite.view.views.Menu" lastModified="1333895397" lastUniqueIdentifier="3">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Menu" itemID="4f2dc57e-000002ca" linkageExportForAS="true" linkageClassName="simplewebsite.view.views.Menu" lastModified="1336258907" lastUniqueIdentifier="6">
   <timeline>
     <DOMTimeline name="Menu">
       <layers>
@@ -22,7 +22,7 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="MenuSceneThreeBtn" name="SceneThree" selected="true" centerPoint3DX="161.55">
+                <DOMSymbolInstance libraryItemName="MenuSceneThreeBtn" name="SceneThree" centerPoint3DX="161.55">
                   <matrix>
                     <Matrix tx="161.55"/>
                   </matrix>

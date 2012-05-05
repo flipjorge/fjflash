@@ -1,10 +1,37 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="LanguagePTBtn" itemID="4fa4566d-0000027e" lastModified="1336175889">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="LanguagePTBtn" itemID="4fa4566d-0000027e" linkageExportForAS="true" linkageBaseClass="fj.view.views.FJButton" linkageClassName="LanguagePTBtn" lastModified="1336259467">
   <timeline>
-    <DOMTimeline name="LanguagePTBtn">
+    <DOMTimeline name="LanguagePTBtn" currentFrame="9">
       <layers>
-        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+        <DOMLayer name="labels" color="#9933CC" autoNamed="false">
           <frames>
-            <DOMFrame index="0" keyMode="9728">
+            <DOMFrame index="0" duration="9" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="9" duration="11" name="over" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="label" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="9" keyMode="9728">
+              <elements>
+                <DOMStaticText selected="true" width="17.85" height="16" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-9.8" ty="-8"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>PT</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="14" bitmapSize="280" face="ArialMT"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="9" duration="11" keyMode="9728">
               <elements>
                 <DOMStaticText width="17.85" height="16" autoExpand="true" isSelectable="false">
                   <matrix>
@@ -14,7 +41,7 @@
                     <DOMTextRun>
                       <characters>PT</characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" size="14" bitmapSize="280" face="ArialMT"/>
+                        <DOMTextAttrs aliasText="false" size="14" bitmapSize="280" face="ArialMT" fillColor="#FF0000"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>

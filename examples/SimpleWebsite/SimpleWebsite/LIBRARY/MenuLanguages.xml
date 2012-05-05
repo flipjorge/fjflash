@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="MenuLanguages" itemID="4fa46cd4-000002cf" linkageExportForAS="true" linkageClassName="simplewebsite.view.views.MenuLanguages" lastModified="1336175900">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="MenuLanguages" itemID="4fa46cd4-000002cf" linkageExportForAS="true" linkageClassName="simplewebsite.view.views.MenuLanguages" lastModified="1336259416">
   <timeline>
     <DOMTimeline name="MenuLanguages">
       <layers>
@@ -14,7 +14,7 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="LanguagePTBtn" name="pt" centerPoint3DX="15">
+                <DOMSymbolInstance libraryItemName="LanguagePTBtn" name="pt" selected="true" centerPoint3DX="15">
                   <matrix>
                     <Matrix tx="15.9"/>
                   </matrix>

@@ -1,10 +1,20 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="LanguageENBtn" itemID="4fa4563f-00000274" lastModified="1336175871">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="LanguageENBtn" itemID="4fa4563f-00000274" linkageExportForAS="true" linkageBaseClass="fj.view.views.FJButton" linkageClassName="LanguageENBtn" lastModified="1336259440">
   <timeline>
-    <DOMTimeline name="LanguageENBtn">
+    <DOMTimeline name="LanguageENBtn" currentFrame="9">
       <layers>
-        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+        <DOMLayer name="labels" color="#9933CC" autoNamed="false">
           <frames>
-            <DOMFrame index="0" keyMode="9728">
+            <DOMFrame index="0" duration="9" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="9" duration="11" name="over" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="label" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="9" keyMode="9728">
               <elements>
                 <DOMStaticText width="19.65" height="16" autoExpand="true" isSelectable="false">
                   <matrix>
@@ -15,6 +25,23 @@
                       <characters>EN</characters>
                       <textAttrs>
                         <DOMTextAttrs aliasText="false" size="14" bitmapSize="280" face="ArialMT"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="9" duration="11" keyMode="9728">
+              <elements>
+                <DOMStaticText width="19.65" height="16" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-9.8" ty="-8"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>EN</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="14" bitmapSize="280" face="ArialMT" fillColor="#FF0000"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>

@@ -1,12 +1,15 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" currentTimeline="1" xflVersion="2.1" creatorInfo="Adobe Flash Professional CS5.5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.5 build 349" majorVersion="11" minorVersion="5" buildNumber="349" timelineLabelWidth="235" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" autoSaveEnabled="true" autoSaveHasPrompted="true">
      <symbols>
-          <Include href="LanguageENBtn.xml" loadImmediate="false" itemID="4fa4563f-00000274" lastModified="1336175871"/>
-          <Include href="LanguagePTBtn.xml" loadImmediate="false" itemID="4fa4566d-0000027e" lastModified="1336175889"/>
-          <Include href="Menu.xml" itemID="4f2dc57e-000002ca" lastModified="1333895397"/>
-          <Include href="MenuLanguages.xml" itemID="4fa46cd4-000002cf" lastModified="1336175900"/>
-          <Include href="MenuSceneOneBtn.xml" loadImmediate="false" itemID="4f2dc465-000002b3" lastModified="1328399571"/>
-          <Include href="MenuSceneThreeBtn.xml" loadImmediate="false" itemID="4f2dc4ee-000002c8" lastModified="1333892215"/>
-          <Include href="MenuSceneTwoBtn.xml" loadImmediate="false" itemID="4f2dc494-000002c0" lastModified="1328399526"/>
+          <Include href="LanguageENBtn.xml" itemID="4fa4563f-00000274" lastModified="1336259440"/>
+          <Include href="LanguagePTBtn.xml" itemID="4fa4566d-0000027e" lastModified="1336259467"/>
+          <Include href="Menu.xml" itemID="4f2dc57e-000002ca" lastModified="1336258907"/>
+          <Include href="MenuLanguages.xml" itemID="4fa46cd4-000002cf" lastModified="1336259416"/>
+          <Include href="MenuSceneOneBtn.xml" itemID="4f2dc465-000002b3" lastModified="1336259205"/>
+          <Include href="MenuSceneOneBtnLabel.xml" loadImmediate="false" itemID="4fa5b1ef-0000025c" lastModified="1336259055"/>
+          <Include href="MenuSceneThreeBtn.xml" itemID="4f2dc4ee-000002c8" lastModified="1336259323"/>
+          <Include href="MenuSceneThreeBtnLabel.xml" loadImmediate="false" itemID="4fa5b2e2-00000272" lastModified="1336259335"/>
+          <Include href="MenuSceneTwoBtn.xml" itemID="4f2dc494-000002c0" lastModified="1336259273"/>
+          <Include href="MenuSceneTwoBtnLabel.xml" loadImmediate="false" itemID="4fa5b29e-00000268" lastModified="1336259234"/>
           <Include href="SceneOne.xml" itemID="4f2dd8c0-00000333" lastModified="1336176888"/>
           <Include href="SceneOneTitle.xml" loadImmediate="false" itemID="4f31b55b-00000260" lastModified="1328657755"/>
           <Include href="ScenesContainerView.xml" itemID="4f2dd881-0000032f" lastModified="1333895448"/>
@@ -34,11 +37,11 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="languages menu" color="#4FFF4F" autoNamed="false">
+                    <DOMLayer name="languages menu" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="40" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="MenuLanguages" centerPoint3DX="33.4" centerPoint3DY="383.9">
+                                        <DOMSymbolInstance libraryItemName="MenuLanguages" selected="true" centerPoint3DX="33.4" centerPoint3DY="383.9">
                                              <matrix>
                                                   <Matrix tx="33.4" ty="383.9"/>
                                              </matrix>
@@ -82,14 +85,14 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="scenes" color="#9933CC" current="true" isSelected="true" autoNamed="false" layerType="guide">
+                    <DOMLayer name="scenes" color="#9933CC" autoNamed="false" layerType="guide">
                          <frames>
                               <DOMFrame index="0" duration="9" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="9" duration="10" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="SceneOne" selected="true" centerPoint3DX="275" centerPoint3DY="200">
+                                        <DOMSymbolInstance libraryItemName="SceneOne" centerPoint3DX="275" centerPoint3DY="200">
                                              <matrix>
                                                   <Matrix tx="275" ty="200"/>
                                              </matrix>
@@ -130,25 +133,25 @@
      </timelines>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
-          <PublishItem publishSize="42446" publishTime="1336178439" publishDebug="true"/>
-          <PublishItem publishSize="2642" publishTime="1336178429" publishDebug="true"/>
-          <PublishItem publishSize="39924" publishTime="1336178327"/>
-          <PublishItem publishSize="42410" publishTime="1336178321" publishDebug="true"/>
-          <PublishItem publishSize="42382" publishTime="1336178267" publishDebug="true"/>
-          <PublishItem publishSize="2644" publishTime="1336178250" publishDebug="true"/>
-          <PublishItem publishSize="39904" publishTime="1336178201"/>
-          <PublishItem publishSize="42412" publishTime="1336178190" publishDebug="true"/>
-          <PublishItem publishSize="2643" publishTime="1336178177" publishDebug="true"/>
-          <PublishItem publishSize="2643" publishTime="1336178174" publishDebug="true"/>
-          <PublishItem publishSize="42405" publishTime="1336178160" publishDebug="true"/>
-          <PublishItem publishSize="2643" publishTime="1336178155" publishDebug="true"/>
-          <PublishItem publishSize="2644" publishTime="1336178151" publishDebug="true"/>
-          <PublishItem publishSize="2643" publishTime="1336178128" publishDebug="true"/>
-          <PublishItem publishSize="42375" publishTime="1336178111" publishDebug="true"/>
-          <PublishItem publishSize="2643" publishTime="1336178060" publishDebug="true"/>
-          <PublishItem publishSize="42352" publishTime="1336178019" publishDebug="true"/>
-          <PublishItem publishSize="42347" publishTime="1336177923" publishDebug="true"/>
-          <PublishItem publishSize="42332" publishTime="1336177910" publishDebug="true"/>
-          <PublishItem publishSize="42374" publishTime="1336177907" publishDebug="true"/>
+          <PublishItem publishSize="41365" publishTime="1336259345"/>
+          <PublishItem publishSize="41167" publishTime="1336258958"/>
+          <PublishItem publishSize="42468" publishTime="1336258802" publishDebug="true"/>
+          <PublishItem publishSize="42460" publishTime="1336258790" publishDebug="true"/>
+          <PublishItem publishSize="42480" publishTime="1336258771" publishDebug="true"/>
+          <PublishItem publishSize="42466" publishTime="1336258760" publishDebug="true"/>
+          <PublishItem publishSize="42445" publishTime="1336258738" publishDebug="true"/>
+          <PublishItem publishSize="42446" publishTime="1336258596" publishDebug="true"/>
+          <PublishItem publishSize="42453" publishTime="1336258590" publishDebug="true"/>
+          <PublishItem publishSize="42456" publishTime="1336258470" publishDebug="true"/>
+          <PublishItem publishSize="42436" publishTime="1336258465" publishDebug="true"/>
+          <PublishItem publishSize="42443" publishTime="1336258462" publishDebug="true"/>
+          <PublishItem publishSize="42467" publishTime="1336258458" publishDebug="true"/>
+          <PublishItem publishSize="42459" publishTime="1336258445" publishDebug="true"/>
+          <PublishItem publishSize="42431" publishTime="1336258441" publishDebug="true"/>
+          <PublishItem publishSize="42441" publishTime="1336258434" publishDebug="true"/>
+          <PublishItem publishSize="42453" publishTime="1336258426" publishDebug="true"/>
+          <PublishItem publishSize="42453" publishTime="1336258369" publishDebug="true"/>
+          <PublishItem publishSize="42443" publishTime="1336258364" publishDebug="true"/>
+          <PublishItem publishSize="42476" publishTime="1336258344" publishDebug="true"/>
      </publishHistory>
 </DOMDocument>
