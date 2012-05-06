@@ -1,4 +1,7 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" currentTimeline="1" xflVersion="2.1" creatorInfo="Adobe Flash Professional CS5.5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.5 build 349" majorVersion="11" minorVersion="5" buildNumber="349" timelineLabelWidth="235" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" autoSaveEnabled="true" autoSaveHasPrompted="true">
+     <fonts>
+          <DOMFontItem name="Arial Regular" itemID="4fa6f0e9-0000026c" font="ArialMT" size="0" id="1" sourceLastImported="1336340713" embedRanges="5|17"/>
+     </fonts>
      <symbols>
           <Include href="LanguageENBtn.xml" itemID="4fa4563f-00000274" lastModified="1336259440"/>
           <Include href="LanguagePTBtn.xml" itemID="4fa4566d-0000027e" lastModified="1336259467"/>
@@ -10,13 +13,14 @@
           <Include href="MenuSceneThreeBtnLabel.xml" loadImmediate="false" itemID="4fa5b2e2-00000272" lastModified="1336259335"/>
           <Include href="MenuSceneTwoBtn.xml" itemID="4f2dc494-000002c0" lastModified="1336259273"/>
           <Include href="MenuSceneTwoBtnLabel.xml" loadImmediate="false" itemID="4fa5b29e-00000268" lastModified="1336259234"/>
-          <Include href="SceneOne.xml" itemID="4f2dd8c0-00000333" lastModified="1336176888"/>
-          <Include href="SceneOneTitle.xml" loadImmediate="false" itemID="4f31b55b-00000260" lastModified="1328657755"/>
+          <Include href="SceneOne.xml" itemID="4f2dd8c0-00000333" lastModified="1336340713"/>
+          <Include href="SceneOneTitle.xml" loadImmediate="false" itemID="4f31b55b-00000260" lastModified="1336340309"/>
           <Include href="ScenesContainerView.xml" itemID="4f2dd881-0000032f" lastModified="1333895448"/>
           <Include href="SceneThree.xml" itemID="4f2dd8f8-00000340" lastModified="1336262648"/>
           <Include href="SceneThreeTitle.xml" loadImmediate="false" itemID="4f31b65a-00000287" lastModified="1328658042"/>
           <Include href="SceneTwo.xml" itemID="4f2dd8ef-0000033c" lastModified="1336262634"/>
           <Include href="SceneTwoTitle.xml" loadImmediate="false" itemID="4f31b610-0000026a" lastModified="1328657944"/>
+          <Include href="SearchBtn.xml" itemID="4fa6ef8e-0000025f" lastModified="1336340403"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">
@@ -37,7 +41,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="languages menu" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="languages menu" color="#4FFF4F" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="40" keyMode="9728">
                                    <elements>
@@ -85,14 +89,14 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="scenes" color="#9933CC" autoNamed="false" layerType="guide">
+                    <DOMLayer name="scenes" color="#9933CC" current="true" isSelected="true" autoNamed="false" layerType="guide">
                          <frames>
                               <DOMFrame index="0" duration="9" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="9" duration="10" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="SceneOne" centerPoint3DX="275" centerPoint3DY="200">
+                                        <DOMSymbolInstance libraryItemName="SceneOne" selected="true" centerPoint3DX="275" centerPoint3DY="200">
                                              <matrix>
                                                   <Matrix tx="275" ty="200"/>
                                              </matrix>
@@ -133,25 +137,25 @@
      </timelines>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
-          <PublishItem publishSize="42684" publishTime="1336264253"/>
-          <PublishItem publishSize="46202" publishTime="1336264246" publishDebug="true"/>
-          <PublishItem publishSize="2875" publishTime="1336264227" publishDebug="true"/>
-          <PublishItem publishSize="2876" publishTime="1336264224" publishDebug="true"/>
-          <PublishItem publishSize="2876" publishTime="1336264203" publishDebug="true"/>
-          <PublishItem publishSize="2875" publishTime="1336264195" publishDebug="true"/>
-          <PublishItem publishSize="2875" publishTime="1336264150" publishDebug="true"/>
-          <PublishItem publishSize="2875" publishTime="1336264143" publishDebug="true"/>
-          <PublishItem publishSize="2875" publishTime="1336264126" publishDebug="true"/>
-          <PublishItem publishSize="2876" publishTime="1336264120" publishDebug="true"/>
-          <PublishItem publishSize="2875" publishTime="1336264109" publishDebug="true"/>
-          <PublishItem publishSize="2875" publishTime="1336264096" publishDebug="true"/>
-          <PublishItem publishSize="2876" publishTime="1336264086" publishDebug="true"/>
-          <PublishItem publishSize="2875" publishTime="1336264084" publishDebug="true"/>
-          <PublishItem publishSize="2875" publishTime="1336264079" publishDebug="true"/>
-          <PublishItem publishSize="2875" publishTime="1336264073" publishDebug="true"/>
-          <PublishItem publishSize="2877" publishTime="1336264066" publishDebug="true"/>
-          <PublishItem publishSize="2875" publishTime="1336264062" publishDebug="true"/>
-          <PublishItem publishSize="42737" publishTime="1336264016"/>
-          <PublishItem publishSize="46175" publishTime="1336264010" publishDebug="true"/>
+          <PublishItem publishSize="73208" publishTime="1336343800" publishDebug="true"/>
+          <PublishItem publishSize="68982" publishTime="1336343768"/>
+          <PublishItem publishSize="73201" publishTime="1336343766" publishDebug="true"/>
+          <PublishItem publishSize="68973" publishTime="1336343739"/>
+          <PublishItem publishSize="73228" publishTime="1336343736" publishDebug="true"/>
+          <PublishItem publishSize="26437" publishTime="1336343702" publishDebug="true"/>
+          <PublishItem publishSize="26437" publishTime="1336343698" publishDebug="true"/>
+          <PublishItem publishSize="26406" publishTime="1336343678"/>
+          <PublishItem publishSize="26437" publishTime="1336343675" publishDebug="true"/>
+          <PublishItem publishSize="26438" publishTime="1336343666" publishDebug="true"/>
+          <PublishItem publishSize="26437" publishTime="1336343662" publishDebug="true"/>
+          <PublishItem publishSize="26437" publishTime="1336343637" publishDebug="true"/>
+          <PublishItem publishSize="26437" publishTime="1336343632" publishDebug="true"/>
+          <PublishItem publishSize="26437" publishTime="1336343627" publishDebug="true"/>
+          <PublishItem publishSize="26437" publishTime="1336343616" publishDebug="true"/>
+          <PublishItem publishSize="26437" publishTime="1336343599" publishDebug="true"/>
+          <PublishItem publishSize="26437" publishTime="1336343575" publishDebug="true"/>
+          <PublishItem publishSize="26436" publishTime="1336343568" publishDebug="true"/>
+          <PublishItem publishSize="26437" publishTime="1336343563" publishDebug="true"/>
+          <PublishItem publishSize="26436" publishTime="1336343558" publishDebug="true"/>
      </publishHistory>
 </DOMDocument>

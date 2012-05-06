@@ -8,7 +8,6 @@ package simplewebsite {
 	import fj.site.controller.events.FJSceneOutEvent;
 	import fj.site.model.models.FJLanguageModel;
 	import fj.site.model.models.FJScenesModel;
-	import fj.site.view.mediators.FJSceneMediator;
 	import fj.site.view.mediators.FJScenesContainerMediator;
 	import fj.site.view.views.FJScene;
 	import fj.site.view.views.FJScenesContainer;
@@ -17,6 +16,10 @@ package simplewebsite {
 	
 	import org.robotlegs.mvcs.Context;
 	
+	import simplewebsite.controller.commands.SearchTermCommand;
+	import simplewebsite.controller.events.SearchTermEvent;
+	import simplewebsite.remote.services.ISearchService;
+	import simplewebsite.remote.services.TwitterSearch;
 	import simplewebsite.view.mediators.MenuLanguagesMediator;
 	import simplewebsite.view.mediators.MenuMediator;
 	import simplewebsite.view.mediators.SceneOneMediator;
@@ -41,8 +44,11 @@ package simplewebsite {
 			commandMap.mapEvent(FJSceneOutEvent.OUT_COMPLETE, FJFinishChangingScene);
 			commandMap.mapEvent(FJChangeLanguageEvent.START_CHANGING, FJStartChangingLanguage);
 			
+			commandMap.mapEvent(SearchTermEvent.SEARCH, SearchTermCommand);
+			
 			injector.mapSingleton(FJScenesModel);
 			injector.mapSingleton(FJLanguageModel);
+			injector.mapSingletonOf(ISearchService, TwitterSearch);
 			
 			mediatorMap.mapView(Menu, MenuMediator);
 			mediatorMap.mapView(MenuLanguages, MenuLanguagesMediator);

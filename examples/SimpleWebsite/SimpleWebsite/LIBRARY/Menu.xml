@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="MenuSceneOneBtn" name="SceneOne" centerPoint3DX="-166.45">
+                <DOMSymbolInstance libraryItemName="MenuSceneOneBtn" name="SceneOne" selected="true" centerPoint3DX="-166.45">
                   <matrix>
                     <Matrix tx="-166.45"/>
                   </matrix>

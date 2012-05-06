@@ -14,7 +14,7 @@
                     <DOMTextRun>
                       <characters>Scene One</characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" size="14" bitmapSize="280" face="ArialMT"/>
+                        <DOMTextAttrs aliasText="false" size="14" face="ArialMT"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>

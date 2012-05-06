@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="SceneOne" itemID="4f2dd8c0-00000333" linkageExportForAS="true" linkageClassName="simplewebsite.view.views.SceneOne" lastModified="1336176888" lastUniqueIdentifier="3">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="SceneOne" itemID="4f2dd8c0-00000333" linkageExportForAS="true" linkageClassName="simplewebsite.view.views.SceneOne" lastModified="1336340713" lastUniqueIdentifier="3">
   <timeline>
-    <DOMTimeline name="SceneOne" currentFrame="10">
+    <DOMTimeline name="SceneOne">
       <layers>
         <DOMLayer name="labels" color="#9933CC" autoNamed="false">
           <frames>
@@ -18,11 +18,14 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="label" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="title" color="#4FFF4F" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="9" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
                 <DOMSymbolInstance libraryItemName="SceneOneTitle">
+                  <matrix>
+                    <Matrix ty="-100"/>
+                  </matrix>
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
@@ -34,7 +37,10 @@
             </DOMFrame>
             <DOMFrame index="9" duration="10" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="SceneOneTitle" selected="true">
+                <DOMSymbolInstance libraryItemName="SceneOneTitle">
+                  <matrix>
+                    <Matrix ty="-100"/>
+                  </matrix>
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
@@ -43,7 +49,10 @@
             </DOMFrame>
             <DOMFrame index="19" duration="10" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
-                <DOMSymbolInstance libraryItemName="SceneOneTitle" selected="true">
+                <DOMSymbolInstance libraryItemName="SceneOneTitle">
+                  <matrix>
+                    <Matrix ty="-100"/>
+                  </matrix>
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
@@ -52,13 +61,53 @@
             </DOMFrame>
             <DOMFrame index="29" duration="11" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="SceneOneTitle" selected="true">
+                <DOMSymbolInstance libraryItemName="SceneOneTitle">
+                  <matrix>
+                    <Matrix ty="-100"/>
+                  </matrix>
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
                   <color>
                     <Color alphaMultiplier="0"/>
                   </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="search txt" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="40" keyMode="9728">
+              <elements>
+                <DOMInputText name="tSearch" width="100" height="16" border="true" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="-49" ty="-63"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="14" bitmapSize="280" face="ArialMT"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMInputText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="search btn" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="40" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="SearchBtn" name="bSearch" centerPoint3DX="89.25" centerPoint3DY="-55">
+                  <matrix>
+                    <Matrix tx="89.25" ty="-55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>

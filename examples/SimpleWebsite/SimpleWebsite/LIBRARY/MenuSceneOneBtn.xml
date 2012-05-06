@@ -1,6 +1,6 @@
 <DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="MenuSceneOneBtn" itemID="4f2dc465-000002b3" linkageExportForAS="true" linkageBaseClass="fj.view.views.FJButton" linkageClassName="MenuSceneOneBtn" lastModified="1336259205" lastUniqueIdentifier="4">
   <timeline>
-    <DOMTimeline name="MenuSceneOneBtn" currentFrame="59">
+    <DOMTimeline name="MenuSceneOneBtn">
       <layers>
         <DOMLayer name="labels" color="#9933CC" autoNamed="false">
           <frames>
@@ -28,7 +28,7 @@
           <frames>
             <DOMFrame index="0" duration="9" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="MenuSceneOneBtnLabel">
+                <DOMSymbolInstance libraryItemName="MenuSceneOneBtnLabel" selected="true">
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
