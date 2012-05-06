@@ -20,9 +20,13 @@ package simplewebsite {
 	import simplewebsite.view.mediators.MenuLanguagesMediator;
 	import simplewebsite.view.mediators.MenuMediator;
 	import simplewebsite.view.mediators.SceneOneMediator;
+	import simplewebsite.view.mediators.SceneThreeMediator;
+	import simplewebsite.view.mediators.SceneTwoMediator;
 	import simplewebsite.view.views.Menu;
 	import simplewebsite.view.views.MenuLanguages;
 	import simplewebsite.view.views.SceneOne;
+	import simplewebsite.view.views.SceneThree;
+	import simplewebsite.view.views.SceneTwo;
 
 	public class SimpleWebsiteContext extends Context
 	{
@@ -45,8 +49,8 @@ package simplewebsite {
 			mediatorMap.mapView(FJScenesContainer, FJScenesContainerMediator);
 			
 			mediatorMap.mapView(SceneOne, SceneOneMediator, FJScene);
-			mediatorMap.mapView(SceneTwo, FJSceneMediator, FJScene);
-			mediatorMap.mapView(SceneThree, FJSceneMediator, FJScene);
+			mediatorMap.mapView(SceneTwo, SceneTwoMediator, FJScene);
+			mediatorMap.mapView(SceneThree, SceneThreeMediator, FJScene);
 			
 			for (var i : int = 0; i < contextView.numChildren; i++) {
 				mediatorMap.createMediator(contextView.getChildAt(i));

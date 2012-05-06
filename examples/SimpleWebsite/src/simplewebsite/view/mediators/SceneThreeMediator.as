@@ -4,7 +4,9 @@ package simplewebsite.view.mediators
 	
 	import flash.events.Event;
 	
-	public class SceneOneMediator extends FJSceneMediator
+	import org.robotlegs.mvcs.Mediator;
+	
+	public class SceneThreeMediator extends FJSceneMediator
 	{
 		override public function onRegister():void
 		{

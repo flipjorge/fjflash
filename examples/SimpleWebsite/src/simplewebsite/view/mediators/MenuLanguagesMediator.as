@@ -1,6 +1,7 @@
 package simplewebsite.view.mediators
 {
 	import fj.site.controller.events.FJChangeLanguageEvent;
+	import fj.view.events.FJMenuEvent;
 	
 	import flash.events.MouseEvent;
 	
@@ -15,19 +16,32 @@ package simplewebsite.view.mediators
 		
 		override public function onRegister():void
 		{
-			menuLanguages.en.addEventListener(MouseEvent.CLICK, onLanguageClick);
-			menuLanguages.pt.addEventListener(MouseEvent.CLICK, onLanguageClick);
+			addContextListener(FJChangeLanguageEvent.CHANGED, onLanguageChanged);
+			addViewListener(FJMenuEvent.SELECTION_CHANGED, onMenuChanged);
 		}
 		
 		override public function onRemove():void
 		{
-			menuLanguages.en.removeEventListener(MouseEvent.CLICK, onLanguageClick);
-			menuLanguages.pt.removeEventListener(MouseEvent.CLICK, onLanguageClick);
+			removeContextListener(FJChangeLanguageEvent.CHANGED, onLanguageChanged);
+			removeViewListener(FJMenuEvent.SELECTION_CHANGED, onMenuChanged);
 		}
 		
-		protected function onLanguageClick(event:MouseEvent):void
+		private function onLanguageChanged(event:FJChangeLanguageEvent):void
 		{
-			dispatch( new FJChangeLanguageEvent( FJChangeLanguageEvent.START_CHANGING, event.currentTarget.name ) );
+			switch( event.language ){
+				case "en":
+					menuLanguages.selected = "en";
+					break;
+				case "pt":
+					menuLanguages.selected = "pt";
+					break;
+			}
 		}
+		
+		private function onMenuChanged(event:FJMenuEvent):void
+		{
+			dispatch( new FJChangeLanguageEvent( FJChangeLanguageEvent.START_CHANGING, event.selectionName ) );
+		}
+		
 	}
 }

@@ -1,11 +1,11 @@
 package simplewebsite.view.views
 {
-	import flash.display.MovieClip;
-	import flash.display.SimpleButton;
+	import fj.view.views.FJButton;
+	import fj.view.views.FJMenu;
 	
-	public class MenuLanguages extends MovieClip
+	public class MenuLanguages extends FJMenu
 	{
-		public var en:MovieClip;
-		public var pt:MovieClip;
+		public var en:FJButton;
+		public var pt:FJButton;
 	}
 }

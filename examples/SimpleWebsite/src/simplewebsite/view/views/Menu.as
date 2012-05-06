@@ -1,11 +1,12 @@
 package simplewebsite.view.views {
 	
-	import flash.display.MovieClip;
+	import fj.view.views.FJButton;
+	import fj.view.views.FJMenu;
 
-	public class Menu extends MovieClip
+	public class Menu extends FJMenu
 	{
-		public var SceneOne:MovieClip;
-		public var SceneTwo:MovieClip;
-		public var SceneThree:MovieClip;
+		public var SceneOne:FJButton;
+		public var SceneTwo:FJButton;
+		public var SceneThree:FJButton;
 	}
 }

@@ -7,7 +7,7 @@ package fj.view.views
 	import flash.geom.Rectangle;
 	import flash.text.TextField;
 
-	public class FJButton extends FJMovieClip
+	public class FJButton extends FJMovieClip implements ISelectable, IDisable, ILabel
 	{
 		public var hit:MovieClip;
 		
@@ -53,8 +53,12 @@ package fj.view.views
 			if ( _selected ) {
 				
 				if ( checkLabelExists( "over:start" ) && checkLabelExists( "over:end" ) ) {
-					gotoAndPlayUntil( "over:start", "over:end" );
-					addEventListener( FJMovieClipEvent.ANIM_COMPLETE, _overAnimComplete );
+					
+					if( !_over ){
+						gotoAndPlayUntil( "over:start", "over:end" );
+						addEventListener( FJMovieClipEvent.ANIM_COMPLETE, _overAnimComplete );
+					}
+					
 				} else if( checkLabelExists( "selected" ) ) {
 					gotoAndStop( "selected" );
 				} else if ( checkLabelExists( "over" ) ) {
