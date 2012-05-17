@@ -8,9 +8,9 @@ package simplewebsite.controller.events
 		public static const SEARCH_COMPLETE:String = "searchTermSearchComplete";
 		
 		public var searchTerm:String;
-		public var results:String;
+		public var results:Array;
 		
-		public function SearchTermEvent(type:String, searchTerm:String, results:String = null, bubbles:Boolean = false, cancelable:Boolean = false)
+		public function SearchTermEvent(type:String, searchTerm:String, results:Array = null, bubbles:Boolean = false, cancelable:Boolean = false)
 		{
 			super(type, bubbles, cancelable);
 			

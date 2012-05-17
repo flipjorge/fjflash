@@ -35,7 +35,7 @@ package simplewebsite.view.mediators
 		{
 			SceneOne( sceneView ).busy = false;
 			
-			trace(event.searchTerm, event.results);
+			trace(event.results);
 		}
 	}
 }

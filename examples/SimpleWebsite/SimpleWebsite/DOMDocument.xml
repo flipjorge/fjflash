@@ -23,7 +23,7 @@
           <Include href="SearchBtn.xml" itemID="4fa6ef8e-0000025f" lastModified="1336340403"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1">
+          <DOMTimeline name="Scene 1" currentFrame="9">
                <layers>
                     <DOMLayer name="labels" color="#4FFF4F" autoNamed="false">
                          <frames>
@@ -96,7 +96,7 @@
                               </DOMFrame>
                               <DOMFrame index="9" duration="10" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="SceneOne" selected="true" centerPoint3DX="275" centerPoint3DY="200">
+                                        <DOMSymbolInstance libraryItemName="SceneOne" centerPoint3DX="275" centerPoint3DY="200">
                                              <matrix>
                                                   <Matrix tx="275" ty="200"/>
                                              </matrix>
@@ -137,25 +137,25 @@
      </timelines>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
-          <PublishItem publishSize="73208" publishTime="1336343800" publishDebug="true"/>
-          <PublishItem publishSize="68982" publishTime="1336343768"/>
-          <PublishItem publishSize="73201" publishTime="1336343766" publishDebug="true"/>
-          <PublishItem publishSize="68973" publishTime="1336343739"/>
-          <PublishItem publishSize="73228" publishTime="1336343736" publishDebug="true"/>
-          <PublishItem publishSize="26437" publishTime="1336343702" publishDebug="true"/>
-          <PublishItem publishSize="26437" publishTime="1336343698" publishDebug="true"/>
-          <PublishItem publishSize="26406" publishTime="1336343678"/>
-          <PublishItem publishSize="26437" publishTime="1336343675" publishDebug="true"/>
-          <PublishItem publishSize="26438" publishTime="1336343666" publishDebug="true"/>
-          <PublishItem publishSize="26437" publishTime="1336343662" publishDebug="true"/>
-          <PublishItem publishSize="26437" publishTime="1336343637" publishDebug="true"/>
-          <PublishItem publishSize="26437" publishTime="1336343632" publishDebug="true"/>
-          <PublishItem publishSize="26437" publishTime="1336343627" publishDebug="true"/>
-          <PublishItem publishSize="26437" publishTime="1336343616" publishDebug="true"/>
-          <PublishItem publishSize="26437" publishTime="1336343599" publishDebug="true"/>
-          <PublishItem publishSize="26437" publishTime="1336343575" publishDebug="true"/>
-          <PublishItem publishSize="26436" publishTime="1336343568" publishDebug="true"/>
-          <PublishItem publishSize="26437" publishTime="1336343563" publishDebug="true"/>
-          <PublishItem publishSize="26436" publishTime="1336343558" publishDebug="true"/>
+          <PublishItem publishSize="79661" publishTime="1337298252" publishDebug="true"/>
+          <PublishItem publishSize="79676" publishTime="1337298247" publishDebug="true"/>
+          <PublishItem publishSize="79648" publishTime="1337298239" publishDebug="true"/>
+          <PublishItem publishSize="79643" publishTime="1337298134" publishDebug="true"/>
+          <PublishItem publishSize="79655" publishTime="1337298099" publishDebug="true"/>
+          <PublishItem publishSize="79677" publishTime="1337298093" publishDebug="true"/>
+          <PublishItem publishSize="79674" publishTime="1337298067" publishDebug="true"/>
+          <PublishItem publishSize="79702" publishTime="1337298060" publishDebug="true"/>
+          <PublishItem publishSize="79634" publishTime="1337298053" publishDebug="true"/>
+          <PublishItem publishSize="79645" publishTime="1337298045" publishDebug="true"/>
+          <PublishItem publishSize="79682" publishTime="1337298039" publishDebug="true"/>
+          <PublishItem publishSize="79662" publishTime="1337298031" publishDebug="true"/>
+          <PublishItem publishSize="79713" publishTime="1337298012" publishDebug="true"/>
+          <PublishItem publishSize="79673" publishTime="1337298005" publishDebug="true"/>
+          <PublishItem publishSize="79676" publishTime="1337297994" publishDebug="true"/>
+          <PublishItem publishSize="79692" publishTime="1337297982" publishDebug="true"/>
+          <PublishItem publishSize="79661" publishTime="1337297969" publishDebug="true"/>
+          <PublishItem publishSize="79663" publishTime="1337297963" publishDebug="true"/>
+          <PublishItem publishSize="79661" publishTime="1337297961" publishDebug="true"/>
+          <PublishItem publishSize="79655" publishTime="1337297953" publishDebug="true"/>
      </publishHistory>
 </DOMDocument>

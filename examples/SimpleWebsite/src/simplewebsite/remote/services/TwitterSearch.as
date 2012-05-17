@@ -1,5 +1,7 @@
 package simplewebsite.remote.services
 {
+	import com.adobe.serialization.json.JSONDecoder;
+	
 	import fj.remote.utils.FJRequest;
 	
 	import flash.events.Event;
@@ -8,6 +10,7 @@ package simplewebsite.remote.services
 	import org.robotlegs.mvcs.Actor;
 	
 	import simplewebsite.controller.events.SearchTermEvent;
+	import simplewebsite.model.models.vo.TweetVO;
 	
 	public class TwitterSearch extends Actor implements ISearchService
 	{
@@ -27,7 +30,24 @@ package simplewebsite.remote.services
 		
 		protected function onSearchComplete(event:Event):void
 		{
-			dispatch( new SearchTermEvent( SearchTermEvent.SEARCH_COMPLETE, _lastSearchTerm, event.currentTarget.data ) );
+			//parse json
+			var json:JSONDecoder = new JSONDecoder( event.target.data, true );
+			
+			var tweets:Array = new Array();
+			var tweet:TweetVO;
+			
+			for each (var entity:* in Object( json.getValue() ).results)
+			{
+				tweet = new TweetVO();
+				tweet.user = entity.from_user;
+				tweet.message = entity.text;
+				tweet.picSource = entity.profile_image_url;
+				
+				tweets.push( tweet );
+			}
+			
+			
+			dispatch( new SearchTermEvent( SearchTermEvent.SEARCH_COMPLETE, _lastSearchTerm, tweets ) );
 		}
 	}
 }
