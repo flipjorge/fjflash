@@ -1,5 +1,15 @@
 package simplewebsite {
 	
+	import fj.facebook.controller.commands.FJFBGetFriendsCommand;
+	import fj.facebook.controller.commands.FJFBInitCommand;
+	import fj.facebook.controller.commands.FJFBLoginCommand;
+	import fj.facebook.controller.commands.FJFBPostPhotoCommand;
+	import fj.facebook.controller.commands.FJFBStreamPublishCommand;
+	import fj.facebook.controller.events.FJFBGetFriendsEvent;
+	import fj.facebook.controller.events.FJFBInitEvent;
+	import fj.facebook.controller.events.FJFBLoginEvent;
+	import fj.facebook.controller.events.FJFBPostPhotoEvent;
+	import fj.facebook.controller.events.FJFBStreamPublishEvent;
 	import fj.site.controller.commands.FJFinishChangingScene;
 	import fj.site.controller.commands.FJStartChangingLanguage;
 	import fj.site.controller.commands.FJStartChangingScene;
@@ -43,6 +53,12 @@ package simplewebsite {
 			commandMap.mapEvent(FJChangeSceneEvent.START_CHANGING, FJStartChangingScene);
 			commandMap.mapEvent(FJSceneOutEvent.OUT_COMPLETE, FJFinishChangingScene);
 			commandMap.mapEvent(FJChangeLanguageEvent.START_CHANGING, FJStartChangingLanguage);
+			
+			commandMap.mapEvent(FJFBInitEvent.INIT, FJFBInitCommand);
+			commandMap.mapEvent(FJFBLoginEvent.LOGIN, FJFBLoginCommand);
+			commandMap.mapEvent(FJFBGetFriendsEvent.GET, FJFBGetFriendsCommand);
+			commandMap.mapEvent(FJFBStreamPublishEvent.PUBLISH, FJFBStreamPublishCommand);
+			commandMap.mapEvent(FJFBPostPhotoEvent.POST_PHOTO, FJFBPostPhotoCommand);
 			
 			commandMap.mapEvent(SearchTermEvent.SEARCH, SearchTermCommand);
 			

@@ -20,11 +20,6 @@ package fj.facebook.controller.commands
 		{
 			commandMap.detain(this);
 			
-			Facebook.init( event.appID, onLoginComplete );
-		}
-		
-		private function onLoginComplete( result:Object, fail:Object ):void
-		{
 			Facebook.api( "/me", onMeInfo );
 		}
 		

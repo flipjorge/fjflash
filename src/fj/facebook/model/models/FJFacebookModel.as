@@ -2,14 +2,13 @@ package fj.facebook.model.models
 {
 	import fj.facebook.controller.events.FJFBChangeUserEvent;
 	import fj.facebook.model.vo.FJFBUser;
-	import fj.utils.FJArray;
 	
 	import org.robotlegs.mvcs.Actor;
 	
 	public class FJFacebookModel extends Actor
 	{
 		private var _loggedUser:FJFBUser;
-		private var _userFriends:FJArray;
+		private var _userFriends:Array;
 
 		public function get loggedUser():FJFBUser
 		{
@@ -23,12 +22,12 @@ package fj.facebook.model.models
 			dispatch( new FJFBChangeUserEvent( FJFBChangeUserEvent.CHANGED, _loggedUser ) );
 		}
 		
-		public function get userFriends():FJArray
+		public function get userFriends():Array
 		{
 			return _userFriends;
 		}
 		
-		public function set userFriends(friends:FJArray):void
+		public function set userFriends(friends:Array):void
 		{
 			_userFriends = friends;
 		}
