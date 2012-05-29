@@ -23,7 +23,7 @@
           <Include href="SearchBtn.xml" itemID="4fa6ef8e-0000025f" lastModified="1336340403"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="9">
+          <DOMTimeline name="Scene 1" currentFrame="10">
                <layers>
                     <DOMLayer name="labels" color="#4FFF4F" autoNamed="false">
                          <frames>
@@ -96,7 +96,7 @@
                               </DOMFrame>
                               <DOMFrame index="9" duration="10" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="SceneOne" centerPoint3DX="275" centerPoint3DY="200">
+                                        <DOMSymbolInstance libraryItemName="SceneOne" selected="true" centerPoint3DX="275" centerPoint3DY="200">
                                              <matrix>
                                                   <Matrix tx="275" ty="200"/>
                                              </matrix>
@@ -137,6 +137,10 @@
      </timelines>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
+          <PublishItem publishSize="95526" publishTime="1338331145"/>
+          <PublishItem publishSize="105966" publishTime="1338331141" publishDebug="true"/>
+          <PublishItem publishSize="95564" publishTime="1338330978"/>
+          <PublishItem publishSize="95449" publishTime="1338330947"/>
           <PublishItem publishSize="79688" publishTime="1337643701" publishDebug="true"/>
           <PublishItem publishSize="79674" publishTime="1337643647" publishDebug="true"/>
           <PublishItem publishSize="79723" publishTime="1337643623" publishDebug="true"/>
@@ -153,9 +157,5 @@
           <PublishItem publishSize="79681" publishTime="1337643352" publishDebug="true"/>
           <PublishItem publishSize="79684" publishTime="1337643346" publishDebug="true"/>
           <PublishItem publishSize="79662" publishTime="1337643317" publishDebug="true"/>
-          <PublishItem publishSize="79653" publishTime="1337643272" publishDebug="true"/>
-          <PublishItem publishSize="79659" publishTime="1337643268" publishDebug="true"/>
-          <PublishItem publishSize="79667" publishTime="1337643240" publishDebug="true"/>
-          <PublishItem publishSize="79668" publishTime="1337643226" publishDebug="true"/>
      </publishHistory>
 </DOMDocument>

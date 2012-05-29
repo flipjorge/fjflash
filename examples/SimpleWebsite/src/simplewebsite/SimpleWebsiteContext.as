@@ -10,6 +10,7 @@ package simplewebsite {
 	import fj.facebook.controller.events.FJFBLoginEvent;
 	import fj.facebook.controller.events.FJFBPostPhotoEvent;
 	import fj.facebook.controller.events.FJFBStreamPublishEvent;
+	import fj.site.FJSiteContext;
 	import fj.site.controller.commands.FJFinishChangingScene;
 	import fj.site.controller.commands.FJStartChangingLanguage;
 	import fj.site.controller.commands.FJStartChangingScene;
@@ -41,7 +42,7 @@ package simplewebsite {
 	import simplewebsite.view.views.SceneThree;
 	import simplewebsite.view.views.SceneTwo;
 
-	public class SimpleWebsiteContext extends Context
+	public class SimpleWebsiteContext extends FJSiteContext
 	{
 		
 		public function SimpleWebsiteContext(contextView : DisplayObjectContainer = null, autoStartup : Boolean = true) {
@@ -50,36 +51,20 @@ package simplewebsite {
 
 		override public function startup() : void
 		{
-			commandMap.mapEvent(FJChangeSceneEvent.START_CHANGING, FJStartChangingScene);
-			commandMap.mapEvent(FJSceneOutEvent.OUT_COMPLETE, FJFinishChangingScene);
-			commandMap.mapEvent(FJChangeLanguageEvent.START_CHANGING, FJStartChangingLanguage);
-			
-			commandMap.mapEvent(FJFBInitEvent.INIT, FJFBInitCommand);
-			commandMap.mapEvent(FJFBLoginEvent.LOGIN, FJFBLoginCommand);
-			commandMap.mapEvent(FJFBGetFriendsEvent.GET, FJFBGetFriendsCommand);
-			commandMap.mapEvent(FJFBStreamPublishEvent.PUBLISH, FJFBStreamPublishCommand);
-			commandMap.mapEvent(FJFBPostPhotoEvent.POST_PHOTO, FJFBPostPhotoCommand);
+			super.startup();
 			
 			commandMap.mapEvent(SearchTermEvent.SEARCH, SearchTermCommand);
 			
-			injector.mapSingleton(FJScenesModel);
-			injector.mapSingleton(FJLanguageModel);
 			injector.mapSingletonOf(ISearchService, TwitterSearch);
 			
 			mediatorMap.mapView(Menu, MenuMediator);
 			mediatorMap.mapView(MenuLanguages, MenuLanguagesMediator);
-			mediatorMap.mapView(FJScenesContainer, FJScenesContainerMediator);
 			
 			mediatorMap.mapView(SceneOne, SceneOneMediator, FJScene);
 			mediatorMap.mapView(SceneTwo, SceneTwoMediator, FJScene);
 			mediatorMap.mapView(SceneThree, SceneThreeMediator, FJScene);
 			
-			for (var i : int = 0; i < contextView.numChildren; i++) {
-				mediatorMap.createMediator(contextView.getChildAt(i));
-			}
-			
-			dispatchEvent(new FJChangeLanguageEvent(FJChangeLanguageEvent.START_CHANGING, "en") );
-			dispatchEvent(new FJChangeSceneEvent(FJChangeSceneEvent.START_CHANGING, new SceneOne() ));
+			start( new SceneOne() );
 		}
 
 	}

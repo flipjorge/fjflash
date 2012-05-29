@@ -23,10 +23,14 @@ package simplewebsite.view.views
 		
 		override protected function onAddedToStage(e:Event):void
 		{
+			super.onAddedToStage(e);
+			
 			bSearch.addEventListener(MouseEvent.CLICK, onSearchClick);
 		}
 		override protected function onRemovedFromStage(e:Event):void
 		{
+			super.onRemovedFromStage(e);
+			
 			bSearch.removeEventListener(MouseEvent.CLICK, onSearchClick);
 		}
 		
